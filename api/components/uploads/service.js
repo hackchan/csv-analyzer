@@ -206,6 +206,18 @@ class uploadsService {
     }
   }
 
+  deleteFile() {
+    return new Promise(async (resolve, reject) => {
+      try {
+        await fs.unlink(this.ruta)
+        resolve(true)
+      } catch (err) {
+        reject(err)
+      }
+    })
+  }
+
+
   findColumsDate(columns) {
     return new Promise(async (resolve, reject) => {
       try {

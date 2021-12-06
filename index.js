@@ -24,5 +24,5 @@ app.use(wrapError)
 app.use(error)
 
 app.listen(app.get('port'), () => {
-  console.log('running in port:' + port)
+  console.log('running in port:' + app.get('port'))
 })

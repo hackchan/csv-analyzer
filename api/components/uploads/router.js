@@ -5,13 +5,14 @@ const service = new entidadService()
 const uploadService = require('./service')
 const multer = require('multer')
 const path = require('path')
+const { v4: uuidv4 } = require('uuid');
 
 const storage = multer.diskStorage({
   destination: 'public/uploads/',
   filename: (req, file, cb) => {
     cb(
       null,
-      'entidad' +
+        uuidv4() +
         path.extname(file.originalname).toLocaleLowerCase()
     )
   }
@@ -22,7 +23,21 @@ const upload = multer({
   dest: 'public/uploads/',
   limits: { fileSize: 90000000 },
   fileFilter: function (req, file, cb) {
-    file.mimetype === 'text/csv' ? cb(null, true) : cb(null, false)
+    //const csv = '/application/vnd.ms-excel/'
+    //const filestypes = `${/csv/}`
+    //file.mimetype === 'text/csv'
+    //file.mimetype === 'application/vnd.ms-excel' 
+    //console.log('file:',file.originalname)
+    //console.log('mimetype:',file.mimetype)
+    //const mimetype = filestypes.test(file.mimetype)
+    //console.log('mimetype:',mimetype)
+    var ext = path.extname(file.originalname);
+    if(ext !== '.csv' ) {
+      cb(new Error('Solo se permite archivos csv'), null)
+      //return cb(new Error('Solo se permite archivos csv'))
+  }
+    cb(null, true)
+
   }
 })
 
@@ -39,7 +54,7 @@ function loadingExcel(req, res, next) {
 
 async function loadingCSV(req, res) {
   try {
-    console.log(req.file)
+    console.log('file final:::',req.file)
     const diccionarioSel = req.body.entity
     if (!diccionarioSel || diccionarioSel === '') {
       throw new Error(
@@ -51,7 +66,7 @@ async function loadingCSV(req, res) {
     const serviceUpload = new uploadService(req.file)
     const dataCSV = await serviceUpload.csvtojson()
     const header = dataCSV[0]
-  
+    await serviceUpload.deleteFile()
 
     /**VALIDACIONES */
     await serviceUpload.getValidTotalColumnas(
