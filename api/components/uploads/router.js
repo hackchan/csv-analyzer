@@ -20,7 +20,10 @@ const storage = multer.diskStorage({
 const upload = multer({
   storage,
   dest: 'public/uploads/',
-  limits: { fileSize: 90000000 }
+  limits: { fileSize: 90000000 },
+  fileFilter: function (req, file, cb) {
+    file.mimetype === 'text/csv' ? cb(null, true) : cb(null, false)
+  }
 })
 
 router.get('/', loadingExcel)
@@ -64,7 +67,6 @@ async function loadingCSV(req, res) {
       dataCSV
     )
 
-  
     res.render('infoOK', {
       title: 'Archivo correcto',
       file: req.file.originalname
