@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <table
+      class="table table-striped table-hover align-middle"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Columna</th>
+          <th scope="col">Descripción del campo</th>
+          <th scope="col">Tipo Dato</th>
+          <th scope="col">Esperado</th>
+          <th scope="col">Observaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anio</th>
+          <td>
+            Año correspondiente a la información reportada
+          </td>
+          <td>Entero</td>
+          <td>2018</td>
+          <td>Sin separadadores de miles ni simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Entidad</th>
+          <td>
+            Nit de la entidad que reporta información sin
+            digito de verificacion
+          </td>
+          <td>Entero</td>
+          <td>900800125</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Entidad</th>
+          <td>Nombre de entidad reportante</td>
+          <td>Cadena texto</td>
+          <td>Municipio ABC</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_Del_Contrato</th>
+          <td>Número del contrato suscrito</td>
+          <td>Cadena de texto</td>
+          <td>2018-345-CM289</td>
+          <td>
+            Se admite letras, números, espacios y guión. No
+            se admite signos diferentes a "-"
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Codigo_Banco_Proyecto</th>
+          <td>Codigo asignado en BPIN</td>
+          <td>Cadena de texto</td>
+          <td>0025-00154-0000</td>
+          <td>
+            e admite números separados con guiones de
+            acuerdo con el formato establecido y asignado al
+            proyecto
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Linea_O_Estrategia_Desarrollada
+          </th>
+          <td>
+            Linea dentro de la cual se desarrolla el
+            proyecto.
+          </td>
+          <td>Cadena de texto</td>
+          <td>
+            Mejoramiento de instalaciones educativas del
+            municipio
+          </td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fuente_De_Recurso</th>
+          <td>Nombre de la fuente de los recursos</td>
+          <td>Cadena de texto</td>
+          <td>SGP</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Objeto</th>
+          <td>Objeto del Contrato</td>
+          <td>Cadena de texto</td>
+          <td>Construcción de …</td>
+          <td>
+            Se admite cualquier tipo de carácter de texto
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Clase_De_Contrato</th>
+          <td>Interventoria, Obra, Suministros, etc.</td>
+          <td>Cadena de texto</td>
+          <td>Interventoría</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Del_Contrato</th>
+          <td>Valor inicial del contrato</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Del_Contratista</th>
+          <td>Nombre del Contratista</td>
+          <td>Cadena de texto</td>
+          <td>Juan Ejemplo</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nit_O_Cedula_Del_Contratista</th>
+          <td>NIT o Cedula del Contratista</td>
+          <td>Entero</td>
+          <td>900900081</td>
+          <td>
+            Sin digito de verificación y sin puntos o comas
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Direccion_Domicilio_Principal</th>
+          <td>Dirección del contratista</td>
+          <td>Cadena de texto</td>
+          <td>Carrera 24 # 134-22</td>
+          <td>
+            Se admite cualquier tipo de carácter de texto
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Telefono_De_Contacto</th>
+          <td>Telefono de contacto del contratista</td>
+          <td>Cadena de texto</td>
+          <td>3105557777</td>
+          <td>
+            Se admite cualquier tipo de carácter de texto
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Correo_Electronico</th>
+          <td>correo electrónico del contratista</td>
+          <td>Cadena de texto</td>
+          <td>contratista@dominiocorreo.com</td>
+          <td>
+            Se admite cualquier tipo de carácter de texto
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Entidad_Bancaria</th>
+          <td>
+            Nombre del banco donde se encuentra radicada
+            cuenta de contratista
+          </td>
+          <td>Cadena de texto</td>
+          <td>Banco avc</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+        <tr>
+          <th scope="row">Tipo_Cuenta_Bancaria</th>
+          <td>
+            Tipo de la cuenta bancaria del contratista
+          </td>
+          <td>Cadena de texto</td>
+          <td>Ahorros</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+        <tr>
+          <th scope="row">No_Cuenta_Bancaria</th>
+          <td>
+            Número de cuenta bancaria del contratista.
+          </td>
+          <td>Cadena de texto</td>
+          <td>1111111A</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            No_Disponibilidad_Presupuestal
+          </th>
+          <td>Número del certificado de disponibilidad</td>
+          <td>Entero</td>
+          <td>201800513</td>
+          <td>
+            De acuerdo al establecido por la entidad,
+            especificar su estructura.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Disponibilidad</th>
+          <td>Fecha de la disponibilidad presupuestal</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Disponibilidad</th>
+          <td>
+            Valor de la disponibilidad presupuestal/td>
+          </td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Firma_Contrato</th>
+          <td>Fecha de suscripción o firma del contrato</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Forma_De_Contratacion</th>
+          <td>
+            Forma del contrato suscrito: Directa, Subasta
+            inversa, etc.
+          </td>
+          <td>Cadena de texto</td>
+          <td>Directa</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+        <tr>
+          <th scope="row">Fecha_Registro_Presupuestal</th>
+          <td>Fecha del registro Presupuestal</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Registro_Presupuestal</th>
+          <td>Valor del Registro Presupuestal</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Cod_Rubro_Registro_presupuestal
+          </th>
+          <td>
+            Codigo del rubro de registro presupuestal
+            conforme CCPET (CCPET - Catálogo de
+            Clasificación Presupuestal para Entidades
+            Territoriales y sus Descentralizadas) para el
+            año 2021 y libre para los años anteriores
+          </td>
+          <td>Cadena de texto</td>
+          <td>2.1.3.14</td>
+          <td>
+            Adjuntar descripción detallada de la notación de
+            codigo utilizado
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Fuente_Financiacion_Registro_Presupuestal
+          </th>
+          <td>
+            Nombre de financiación del rubro conforme CCPET
+            (CCPET - Catálogo de Clasificación Presupuestal
+            para Entidades Territoriales y sus
+            Descentralizadas) para el año 2021 y libre para
+            los años anteriores
+          </td>
+          <td>Cadena de texto</td>
+          <td>Indemnizacion</td>
+          <td>De acuerdo al catalogo vigente</td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Asignado_Supervisor_O_Interventor
+          </th>
+          <td>
+            "S": Supervisor o Inteventor Asignado "N":
+            Supervisor o Interventor No Asignado
+          </td>
+          <td>Cadena de texto</td>
+          <td>S</td>
+          <td>Solo uno de los siguientes valores: S o N</td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Identificacion_Interventor_O_Supervisor
+          </th>
+          <td>
+            Número de identificación del interventor o
+            supervisor contratado
+          </td>
+          <td>Entero</td>
+          <td>900900081</td>
+          <td>
+            Sin digito de verificación y sin puntos o comas.
+            Valor 0 en caso de no tener supervisor o
+            interventor contratado.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Nombre_Completo_Del_Interventor
+          </th>
+          <td>
+            Nombre del interventor o supervisor contratado
+          </td>
+          <td>Cadena de texto</td>
+          <td>Juan Ejemplo</td>
+          <td>
+            Sin simbolos solo letras y espacios. N/A en caso
+            de no tener supervisor o interventor contratado.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Nombre_Completo_Del_Interventor
+          </th>
+          <td>
+            Nombre del interventor o supervisor contratado
+          </td>
+          <td>Cadena de texto</td>
+          <td>Juan Ejemplo</td>
+          <td>
+            Sin simbolos solo letras y espacios. N/A en caso
+            de no tener supervisor o interventor contratado.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Tipo_Vinculacion_Interventor_O_Supervisor
+          </th>
+          <td>
+            Tipo de vinculación del interventor o supervisor
+          </td>
+          <td>Cadena de texto</td>
+          <td>...</td>
+          <td>
+            Sin simbolos solo letras y espacios. N/A en caso
+            de no tener supervisor o interventor contratado.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Fecha_Aprobacion_Garantía_Unica
+          </th>
+          <td>Fecha de aprobación de la garantía única</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Iniciacion_Contrato</th>
+          <td>Fecha de inicio del contrato</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Plazo_Contrato</th>
+          <td>Plazo en días del contrato</td>
+          <td>Entero</td>
+          <td>180</td>
+          <td>
+            Solo números enteros sin puntos, comas o
+            decimales
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Unidad_Ejecucion</th>
+          <td>Unidad de Ejecución del contrato</td>
+          <td>Cadena de texto</td>
+          <td>Secretaría de Educación</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Anticipo_Al_Contrato</th>
+          <td>
+            "S": Se pactó anticipo del contrato "N": No se
+            pactó anticipo del contrato
+          </td>
+          <td>Cadena de texto</td>
+          <td>S</td>
+          <td>Solo uno de los siguientes valores: S o N</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Pagado_Anticipo</th>
+          <td>Valor pagado como anticipo</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Pago_Anticipo</th>
+          <td>Fecha del pago del anticipo</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_Adiciones</th>
+          <td>
+            Número de adiciones realizadas al contrato,
+            hasta la fecha de reporte.
+          </td>
+          <td>Entero</td>
+          <td>2</td>
+          <td>
+            Solo números enteros sin puntos, comas o
+            decimales
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Total_Adiciones</th>
+          <td>
+            Valor total por adiciones al contrato, hasta la
+            fecha de reporte
+          </td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_Prorrogas</th>
+          <td>
+            Número de prorrogas realizadas al contrato,
+            hasta la fecha de reporte.
+          </td>
+          <td>Entero</td>
+          <td>2</td>
+          <td>
+            Solo números enteros sin puntos, comas o
+            decimales
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Tiempo_Prorrogas</th>
+          <td>
+            Tiempo total en días por prórrogas al contrato,
+            hasta la fecha de reporte
+          </td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_Suspensiones</th>
+          <td>
+            Número de suspensiones realizadas al contrato,
+            hasta la fecha de reporte.
+          </td>
+          <td>Entero</td>
+          <td>2</td>
+          <td>
+            Solo números enteros sin puntos, comas o
+            decimales
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Tiempo_Suspensiones</th>
+          <td>
+            Tiempo total en días por suspensiones al
+            contrato, hasta la fecha de reporte
+          </td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Total_Pagos</th>
+          <td>
+            valor total de pagos realizados hasta la fecha
+            de reporte. Se incluye anticipo.
+          </td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Terminacion_Contrato</th>
+          <td>
+            Fecha de terminación del contrato. En caso de no
+            contar con este dato, ingresar el valor
+            1800-01-01
+          </td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Acta_Liquidación</th>
+          <td>
+            Fecha de acta de liquidación del contrato. En
+            caso de no contar con este dato, ingresar el
+            valor 1800-01-01
+          </td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Estado_Contrato</th>
+          <td>Estado del contrato a la fecha de reporte</td>
+          <td>Cadena de texto</td>
+          <td>En ejecución</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Observaciones</th>
+          <td>Observaciones del contrato</td>
+          <td>Cadena de texto</td>
+          <td>...</td>
+          <td>texto</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

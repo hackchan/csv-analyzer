@@ -1,0 +1,23 @@
+{
+    "anio_reporte":{"tipo": "Number", "valid":0, "message":"Sin separadadores de miles ni simbolos"},
+    "vigencia":{"tipo":"String", "valid":["actual","reservas","cxp"], "message":"Los valores deben aparecer sin espacios y con las mismas caracteristicas de mayusculas y minusculas, sin comillas, los valores validos son: Actual Reservas CxP2"},
+    "nit_entidad_reportante":{"tipo": "Number", "valid":0,  "message":"Número entero sin simbolos, sin digito de verificación"},
+    "nombre_entidad_reportante":{"tipo": "String", "valid":0, "message":"Sin simbolos solo letras y espacios"},
+    "codigo_presupuestal":{"tipo": "String", "valid":0, "message":"Separador (.), sin otros simbolos o caracteres"},
+    "macro_campo_nivel_agregado":{"tipo": "String", "valid":["A","DA"], "message":"Sin simbolos solo letras A si es agregado (suma de rubros) o DA si es desagregado y es el ultimo nivel (no hay niveles inferiores)."},
+    "nombre_rubro":{"tipo": "String", "valid":0, "message":"Sin simbolos, solo letras y espacios"},
+    "presupuesto_inicial":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "adiciones_del_periodo":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "adiciones_acumuladas":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "reducciones_del_periodo":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "reducciones_acumuladas":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "creditos":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "contra_creditos":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "apropiacion_definitiva":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "reconocimientos_del_periodo":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "reconocimientos_acumulados":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "recaudos_del_periodo":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "recaudos_acumulados":{"tipo": "Number", "valid":0, "message":"Valores decimales entre 0 y 1"},
+    "porcentaje_ejecucion":{"tipo": "Number", "valid":0, "message":"Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"},
+    "fecha_reporte":{"tipo": "Date", "valid":["yyyy-MM-dd"], "message":"(yyyy-MM-dd) una fecha valida seria 2021-01-09"}
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <table
+      class="table table-striped table-hover align-middle"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Columna</th>
+          <th scope="col">Descripción del campo</th>
+          <th scope="col">Tipo Dato</th>
+          <th scope="col">Esperado</th>
+          <th scope="col">Observaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anio_reporte</th>
+          <td>
+            Año correspondiente a la información reportada
+          </td>
+          <td>Entero</td>
+          <td>2018</td>
+          <td>Sin separadadores de miles ni simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Vigencia</th>
+          <td>
+            Corresponde a vigencia: “Actual” => Presupuesto
+            aprobado para el año de reporte “Reservas” =>
+            Ejecucion de la reserva constituida a diciembre
+            31 del año anterior al del reporte “CxP” =>
+            Ejecucion de las cuentas por pagar constituida a
+            diciembre 31 del año anterior al del reporte
+          </td>
+          <td>Cadena de texto</td>
+          <td>Reservas</td>
+          <td>
+            "Los valores deben aparecer sin espacios y con
+            las mismas caracteristicas de mayusculas y
+            minusculas, sin comillas, los valores validos
+            son: Actual Reservas CxP"
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Entidad_reportante</th>
+          <td>
+            Nit de la entidad que reporta información sin
+            digito de verificacion
+          </td>
+          <td>Entero</td>
+          <td>900800125</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Entidad_reportante</th>
+          <td>Nombre de entidad reportante</td>
+          <td>Cadena texto</td>
+          <td>Municipio ABC</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Codigo_Presupuestal</th>
+          <td>
+            Corresponde para el año 2021 al codigo CCPET,
+            para los años anteriores se utilizan los codigos
+            de presupuesto libre
+          </td>
+          <td>Cadena texto</td>
+          <td>2.1.3.14</td>
+          <td>
+            Separador (.), sin otros simbolos o caracteres
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Macro_campo_nivel_agregado</th>
+          <td>
+            Valor que define si el rubro informado
+            corresponde a un rubro de detalle o de
+            agregacion (suma de rubros) Sin simbolos solo
+            letras A si es agregado (suma de rubros) o DA si
+            es desagregado y es el ultimo nivel (no hay
+            niveles inferiores).
+          </td>
+          <td>Cadena texto</td>
+          <td>DA</td>
+          <td>
+            Sin simbolos solo letras A si es agregado (suma
+            de rubros) o DA si es desagregado y es el ultimo
+            nivel (no hay niveles inferiores).
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_de_Recaudo</th>
+          <td>
+            La fecha en que se realizó el recaudo o la
+            disminución a un recaudo existente.
+          </td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_Recibo</th>
+          <td>
+            Número de documento con el que se realiza el
+            recaudo
+          </td>
+          <td>Entero</td>
+          <td>8001258</td>
+          <td>Número entero sin simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_reconocimiento</th>
+          <td>
+            Numero de reconocimiento afectado por el recaudo
+          </td>
+          <td>Entero</td>
+          <td>3012458</td>
+          <td>Número entero sin simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nit_tercero</th>
+          <td>
+            Numero de identificación (cedula o nit) del
+            tercero que realiza el pago
+          </td>
+          <td>Entero</td>
+          <td>908801258</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_tercero</th>
+          <td>Nombre del tercero que realiza el pago</td>
+          <td>Cadena texto</td>
+          <td>Empresa Ejemplo 123</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+        <tr>
+          <th scope="row">Concepto_Recaudo</th>
+          <td>Detalle del recaudo recibido</td>
+          <td>Cadena texto</td>
+          <td>Pago por prestacion de servicio abc</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+        <tr>
+          <th scope="row">Valor</th>
+          <td>Valor del recaudo recibido</td>
+          <td>Decimal</td>
+          <td>199988005,35</td>
+          <td>
+            Valores enteros en pesos mas centavos separados
+            por comas, sin separador de miles, ni puntos u
+            otros simbolos
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Cuenta_Bancaria_Dest</th>
+          <td>
+            Número de cuenta bancaria que recibe el recaudo
+          </td>
+          <td>Entero</td>
+          <td>1887868413</td>
+          <td>Número entero sin simbolos.</td>
+        </tr>
+        <tr>
+          <th scope="row">Nombre_banco</th>
+          <td>
+            Nombre del banco donde se deposita el recaudo
+          </td>
+          <td>Cadena texto</td>
+          <td>Banco ADD</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+        <tr>
+          <th scope="row">No_Cuenta_Banco_Orig</th>
+          <td>Numero de cuenta origen</td>
+          <td>Entero</td>
+          <td>5887868413</td>
+          <td>Número entero sin simbolos.</td>
+        </tr>
+        <tr>
+          <th scope="row">Cta_Contable</th>
+          <td>Codigo contable asociado al pago</td>
+          <td>Cadena texto</td>
+          <td>477</td>
+          <td>Número entero sin simbolos.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <table
+      class="table table-striped table-hover align-middle"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Columna</th>
+          <th scope="col">Descripción del campo</th>
+          <th scope="col">Tipo Dato</th>
+          <th scope="col">Esperado</th>
+          <th scope="col">Observaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anio</th>
+          <td>
+            Año correspondiente a la información reportada
+          </td>
+          <td>Entero</td>
+          <td>2018</td>
+          <td>Sin separadadores de miles ni simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Vigencia</th>
+          <td>
+            Corresponde a vigencia: “Actual” => Presupuesto
+            aprobado para el año de reporte “Reservas” =>
+            Ejecucion de la reserva constituida a diciembre
+            31 del año anterior al del reporte “CxP” =>
+            Ejecucion de las cuentas por pagar constituida a
+            diciembre 31 del año anterior al del reporte
+          </td>
+          <td>Cadena de texto</td>
+          <td>Reservas</td>
+          <td>
+            "Los valores deben aparecer sin espacios y con
+            las mismas caracteristicas de mayusculas y
+            minusculas, sin comillas, los valores validos
+            son: Actual Reservas CxP"
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Entidad</th>
+          <td>
+            Nit de la entidad que reporta información sin
+            digito de verificacion
+          </td>
+          <td>Entero</td>
+          <td>900800125</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Entidad</th>
+          <td>Nombre de entidad reportante</td>
+          <td>Cadena texto</td>
+          <td>Municipio ABC</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Cod_Cuenta</th>
+          <td>
+            Codigo del rubro de origen del pago conforme
+            CCPET (CCPET - Catálogo de Clasificación
+            Presupuestal para Entidades Territoriales y sus
+            Descentralizadas) para el año 2021 y libre para
+            los años anteriores
+          </td>
+          <td>Cadena de texto</td>
+          <td>2.1.3.14</td>
+          <td>
+            Adjuntar descripción detallada de la notación de
+            codigo utilizado
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fuente_Financiacion</th>
+          <td>
+            Nombre de financiación del rubro conforme CCPET
+            (CCPET - Catálogo de Clasificación Presupuestal
+            para Entidades Territoriales y sus
+            Descentralizadas) para el año 2021 y libre para
+            los años anteriores
+          </td>
+          <td>Cadena de texto</td>
+          <td>Indemnizacion</td>
+          <td>De acuerdo al catalogo vigente</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Cuenta</th>
+          <td>Nombre asignado al cuenta informado</td>
+          <td>Cadena de texto</td>
+          <td>Adquisición de activos</td>
+          <td>
+            Sin simbolos solo letras, espacios o numeros,
+            detalle de como esta definida la información en
+            este campo
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Macro_campo_nivel_agregado</th>
+          <td>
+            Valor que define si el rubro informado
+            corresponde a un rubro de detalle o de
+            agregacion (suma de rubros) Sin simbolos solo
+            letras A si es agregado (suma de rubros) o DA si
+            es desagregado y es el ultimo nivel (no hay
+            niveles inferiores).
+          </td>
+          <td>Cadena texto</td>
+          <td>DA</td>
+          <td>
+            Sin simbolos solo letras A si es agregado (suma
+            de rubros) o DA si es desagregado y es el ultimo
+            nivel (no hay niveles inferiores).
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_CDP</th>
+          <td>Número del certificado de disponibilidad</td>
+          <td>Entero</td>
+          <td>201800513</td>
+          <td>
+            De acuerdo al establecido por la entidad,
+            especificar su estructura.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_CDP</th>
+          <td>Fecha del certificado de disponibilidad</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_CDP</th>
+          <td>Valor del Compromiso</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Detalle_CDP</th>
+          <td>Objeto del compromiso</td>
+          <td>Cadena de texto</td>
+          <td>Transferencia del mes de febrero de 2018</td>
+          <td>
+            Sin simbolos solo letras, espacios o numeros
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

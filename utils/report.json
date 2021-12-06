@@ -1,0 +1,82 @@
+{
+  "reportes": [
+    {
+      "id": 1,
+      "nombre": "Ejecucion presupuestal de ingresos",
+      "categoria": "presupuesto",
+      "diccionario": "ejecucionIngreso"
+    },
+    {
+      "id": 2,
+      "nombre": "Relacion de ingresos",
+      "categoria": "presupuesto",
+      "diccionario": "relacionIngreso"
+    },
+    {
+      "id": 3,
+      "nombre": "Ejecucion presupuestal de gastos",
+      "categoria": "presupuesto",
+      "diccionario": "ejecucionGastos"
+    },
+    {
+      "id": 4,
+      "nombre": "Relacion de CDPs",
+      "categoria": "presupuesto",
+      "diccionario": "relacioncdps"
+    },
+    {
+      "id": 5,
+      "nombre": "Relación de compromisos",
+      "categoria": "presupuesto",
+      "diccionario": "relacioncompromiso"
+    },
+    {
+      "id": 6,
+      "nombre": "Relación de obligaciones",
+      "categoria": "presupuesto",
+      "diccionario": "relacionObligaciones"
+    },
+    {
+      "id": 7,
+      "nombre": "Relación de pagos",
+      "categoria": "presupuesto",
+      "diccionario": "relacionPagos"
+    },
+    {
+      "id": 8,
+      "nombre": "Auxiliar con saldos",
+      "categoria": "contable y financiera",
+      "diccionario": "auxliarSaldos"
+    },
+    {
+      "id": 9,
+      "nombre": "Libro mayor y balance",
+      "categoria": "contable y financiera",
+      "diccionario": "libroMayor"
+    },
+    {
+      "id": 10,
+      "nombre": "Estado de situacion financiera",
+      "categoria": "contable y financiera",
+      "diccionario": "estadoFinanciero"
+    },
+    {
+      "id": 11,
+      "nombre": "programas y proyectos",
+      "categoria": "programas y proyectos",
+      "diccionario": "programasProyectos"
+    },
+    {
+      "id": 12,
+      "nombre": "Contratacion",
+      "categoria": "Contratacion",
+      "diccionario": "contratacion"
+    },
+    {
+      "id": 13,
+      "nombre": "Obras Publicas",
+      "categoria": "Obras Publicas",
+      "diccionario": "obras"
+    }
+  ]
+}

@@ -1,0 +1,1349 @@
+{
+  "arauca": [
+    {
+      "identidad": 6,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Arauca",
+      "dbe": "GPIF_ORIENTE_Mpio_AraucaAra",
+      "usuario": "aLCMuNArauCA",
+      "iddepart": 2
+    },
+    {
+      "identidad": 7,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Arauquita",
+      "dbe": "GPIF_ORIENTE_Mpio_ArauquitaAra",
+      "usuario": "AlcMunArauquitaAra",
+      "iddepart": 2
+    },
+    {
+      "identidad": 8,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Cravo Norte",
+      "dbe": "GPIF_ORIENTE_Mpio_CravoNorteAra",
+      "usuario": "AlcMunCravoNorteAra",
+      "iddepart": 2
+    },
+    {
+      "identidad": 9,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Fortul",
+      "dbe": "GPIF_ORIENTE_Mpio_FortulAra",
+      "usuario": "AlcMunFortulAra",
+      "iddepart": 2
+    },
+    {
+      "identidad": 10,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Puerto Rondón",
+      "dbe": "GPIF_ORIENTE_Mpio_PuertoRondonAra",
+      "usuario": "AlcMunPuertoRondonAra",
+      "iddepart": 2
+    },
+    {
+      "identidad": 11,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Saravena",
+      "dbe": "GPIF_ORIENTE_Mpio_SaravenaAra",
+      "usuario": "AlCMuNSaraVENaC",
+      "iddepart": 2
+    },
+    {
+      "identidad": 12,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tame",
+      "dbe": "GPIF_ORIENTE_Mpio_TameAra",
+      "usuario": "AlcMunTameAra",
+      "iddepart": 2
+    }
+  ],
+  "boyaca": [
+    {
+      "identidad": 13,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Almeida",
+      "dbe": "GPIF_ORIENTE_Mpio_AlmeidaBoy",
+      "usuario": "AlCMunAlMeiDA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 14,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Aquitania",
+      "dbe": "GPIF_ORIENTE_Mpio_AquitaniaBoy",
+      "usuario": "AlcMunAquitaniaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 15,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Arcabuco",
+      "dbe": "GPIF_ORIENTE_Mpio_ArcabucoBoy",
+      "usuario": "AlcArcbcoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 16,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Belén",
+      "dbe": "GPIF_ORIENTE_Mpio_BelenBoy",
+      "usuario": "alCmUNBelENB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 17,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Berbeo",
+      "dbe": "GPIF_ORIENTE_Mpio_BerbeoBoy",
+      "usuario": "AlcMunBerbeoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 18,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Betéitiva",
+      "dbe": "GPIF_ORIENTE_Mpio_BeteitivaBoy",
+      "usuario": "AlcMunBeteitivaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 19,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Boavita",
+      "dbe": "GPIF_ORIENTE_Mpio_BoavitaBoy",
+      "usuario": "AlcMunBoavitaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 20,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Boyacá",
+      "dbe": "GPIF_ORIENTE_Mpio_BoyacaBoy",
+      "usuario": "aLCmUnBoyacaB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 21,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Briceño",
+      "dbe": "GPIF_ORIENTE_Mpio_BriceñoBoy",
+      "usuario": "AlcMunBricenoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 22,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Buenavista",
+      "dbe": "GPIF_ORIENTE_Mpio_BuenaVistaBoy",
+      "usuario": "AlcBvistaBy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 23,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Busbanzá",
+      "dbe": "GPIF_ORIENTE_Mpio_BusbanzaBoy",
+      "usuario": "AlcMunBusBAnzA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 24,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Caldas",
+      "dbe": "GPIF_ORIENTE_Mpio_CaldasBoy",
+      "usuario": "AlcMunCaldasBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 25,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Campohermoso",
+      "dbe": "GPIF_ORIENTE_Mpio_CampohermanoBoy",
+      "usuario": "AlcCHmsoBy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 26,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Cerinza",
+      "dbe": "GPIF_ORIENTE_Mpio_CerinzaBoy",
+      "usuario": "AlCMuNCerizaB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 27,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chinavita",
+      "dbe": "GPIF_ORIENTE_Mpio_ChinavitaBoy",
+      "usuario": "AlcMunChinavitaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 71,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Nuevo Colón",
+      "dbe": "GPIF_ORIENTE_Mpio_NuevoColonBoy",
+      "usuario": "AlcNColonBy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 28,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chiquinquirá",
+      "dbe": "GPIF_ORIENTE_Mpio_ChiquinquiraBoy",
+      "usuario": "aLcMunChiquinQUirA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 29,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chíquiza",
+      "dbe": "GPIF_ORIENTE_Mpio_ChiquizaBoy",
+      "usuario": "AlcChiquiza",
+      "iddepart": 1
+    },
+    {
+      "identidad": 30,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chiscas",
+      "dbe": "GPIF_ORIENTE_Mpio_ChiscasBoy",
+      "usuario": "AlcMuNChisCaS",
+      "iddepart": 1
+    },
+    {
+      "identidad": 31,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chita",
+      "dbe": "GPIF_ORIENTE_Mpio_ChitaBoy",
+      "usuario": "AlcMunChitaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 32,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chitaraque",
+      "dbe": "GPIF_ORIENTE_Mpio_ChitaraqueBoy",
+      "usuario": "AlcmunChiTAraquEB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 33,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chivatá",
+      "dbe": "GPIF_ORIENTE_Mpio_ChivataBoy",
+      "usuario": "AlcMunChivataBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 34,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chivor",
+      "dbe": "GPIF_ORIENTE_Mpio_ChivorBoy",
+      "usuario": "AlCMUNChivoRB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 35,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Ciénega",
+      "dbe": "GPIF_ORIENTE_Mpio_CienagaBoy",
+      "usuario": "AlcMunCienegaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 36,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Cómbita",
+      "dbe": "GPIF_ORIENTE_Mpio_CombitaBoy",
+      "usuario": "AlcMunCombitaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 37,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Coper",
+      "dbe": "GPIF_ORIENTE_Mpio_CoperBoy",
+      "usuario": "AlcMunCoperBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 38,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Corrales",
+      "dbe": "GPIF_ORIENTE_Mpio_CorralesBoy",
+      "usuario": "AlcCorralesBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 39,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Covarachía",
+      "dbe": "GPIF_ORIENTE_Mpio_CovarachiaBoy",
+      "usuario": "alCMUNCoVAraCHiaB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 40,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Cubará",
+      "dbe": "GPIF_ORIENTE_Mpio_CubaraBoy",
+      "usuario": "AlcMunCubaraBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 41,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Cucaita",
+      "dbe": "GPIF_ORIENTE_Mpio_CucaitaBoy",
+      "usuario": "AlcMunCucaitaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 42,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Cuítiva",
+      "dbe": "GPIF_ORIENTE_Mpio_CuitivaBoy",
+      "usuario": "AlcCuitiva",
+      "iddepart": 1
+    },
+    {
+      "identidad": 43,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Duitama",
+      "dbe": "GPIF_ORIENTE_Mpio_DuitamaBoy",
+      "usuario": "AlcMunDuitamaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 44,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de El Cocuy",
+      "dbe": "GPIF_ORIENTE_Mpio_CocuyBoy",
+      "usuario": "AlcMunCocuyBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 45,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de El Espino",
+      "dbe": "GPIF_ORIENTE_Mpio_EspinoBoy",
+      "usuario": "AlcMunEspiNO",
+      "iddepart": 1
+    },
+    {
+      "identidad": 46,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Firavitoba",
+      "dbe": "GPIF_ORIENTE_Mpio_FiravitobaBoy",
+      "usuario": "aLCmunFiraVitoBA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 47,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Floresta",
+      "dbe": "GPIF_ORIENTE_Mpio_FlorestaBoy",
+      "usuario": "AlcMunFlorestaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 48,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Gachantivá",
+      "dbe": "GPIF_ORIENTE_Mpio_GachantivaBoy",
+      "usuario": "AlcMunGachantivaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 49,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Gameza",
+      "dbe": "GPIF_ORIENTE_Mpio_GamezaBoy",
+      "usuario": "AlcMunGamezaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 50,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Garagoa",
+      "dbe": "GPIF_ORIENTE_Mpio_GaragoaBoy",
+      "usuario": "AlcMUNGaRAgoAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 51,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Guacamayas",
+      "dbe": "GPIF_ORIENTE_Mpio_GuacamayasBoy",
+      "usuario": "aLcMunGuacaMAYAS",
+      "iddepart": 1
+    },
+    {
+      "identidad": 52,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Guateque",
+      "dbe": "GPIF_ORIENTE_Mpio_GuatequeBoy",
+      "usuario": "AlcMunGuatequeBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 53,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Guayatá",
+      "dbe": "GPIF_ORIENTE_Mpio_GuayataBoy",
+      "usuario": "AlcGyata",
+      "iddepart": 1
+    },
+    {
+      "identidad": 54,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Güicán",
+      "dbe": "GPIF_ORIENTE_Mpio_GuicanBoy",
+      "usuario": "AlcMunGuicanSierraBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 55,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Iza",
+      "dbe": "GPIF_ORIENTE_Mpio_IzaBoy",
+      "usuario": "AlcMunIzaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 56,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Jenesano",
+      "dbe": "GPIF_ORIENTE_Mpio_JenesanoBoy",
+      "usuario": "AlcMunJenesanoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 57,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Jericó",
+      "dbe": "GPIF_ORIENTE_Mpio_JericoBoy",
+      "usuario": "AlcMunJeriCOB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 58,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de La Capilla",
+      "dbe": "GPIF_ORIENTE_Mpio_CapillaBoy",
+      "usuario": "AlcmUnCapiLLa",
+      "iddepart": 1
+    },
+    {
+      "identidad": 59,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de La Uvita",
+      "dbe": "GPIF_ORIENTE_Mpio_UvitaBoy",
+      "usuario": "AlCMunLaUviTAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 60,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de La Victoria",
+      "dbe": "GPIF_ORIENTE_Mpio_VictoriaBoy",
+      "usuario": "AlcMunVictoriaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 61,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Labranzagrande",
+      "dbe": "GPIF_ORIENTE_Mpio_LabranzaGrandeBoy",
+      "usuario": "AlcMunLabranzagrandeBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 62,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Macanal",
+      "dbe": "GPIF_ORIENTE_Mpio_MacanalBoy",
+      "usuario": "AlcMunMacanalBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 63,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Maripí",
+      "dbe": "GPIF_ORIENTE_Mpio_MaripiBoy",
+      "usuario": "AlcMunMaripiBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 64,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Miraflores",
+      "dbe": "GPIF_ORIENTE_Mpio_MiraFloresBoy",
+      "usuario": "AlcMunMirafloresBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 65,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Mongua",
+      "dbe": "GPIF_ORIENTE_Mpio_MonguaBoy",
+      "usuario": "AlcMunMonguaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 66,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Monguí",
+      "dbe": "GPIF_ORIENTE_Mpio_MonguiBoy",
+      "usuario": "AlcMongui",
+      "iddepart": 1
+    },
+    {
+      "identidad": 67,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Moniquirá",
+      "dbe": "GPIF_ORIENTE_Mpio_MoniquiraBoy",
+      "usuario": "AlcMoniquira",
+      "iddepart": 1
+    },
+    {
+      "identidad": 68,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Motavita",
+      "dbe": "GPIF_ORIENTE_Mpio_MotavitaBoy",
+      "usuario": "aLcMUNMotaViTAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 69,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Muzo",
+      "dbe": "GPIF_ORIENTE_Mpio_MuzoBoy",
+      "usuario": "AlcMuNMuZo",
+      "iddepart": 1
+    },
+    {
+      "identidad": 70,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Nobsa",
+      "dbe": "GPIF_ORIENTE_Mpio_NobsaBoy",
+      "usuario": "AlCMUNNobSAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 72,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Oicatá",
+      "dbe": "GPIF_ORIENTE_Mpio_OcaitaBoy",
+      "usuario": "AlcMunOicataBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 73,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Otanche",
+      "dbe": "GPIF_ORIENTE_Mpio_OtancheBoy",
+      "usuario": "AlcMUnOtanCHE",
+      "iddepart": 1
+    },
+    {
+      "identidad": 74,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Pachavita",
+      "dbe": "GPIF_ORIENTE_Mpio_PachavitaBoy",
+      "usuario": "AlcMunPachavitaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 75,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Páez",
+      "dbe": "GPIF_ORIENTE_Mpio_PaezBoy",
+      "usuario": "AlcMunPaezBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 76,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Paipa",
+      "dbe": "GPIF_ORIENTE_Mpio_PaipaBoy",
+      "usuario": "AlCmunPaiPAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 77,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Pajarito",
+      "dbe": "GPIF_ORIENTE_Mpio_PajaritoBoy",
+      "usuario": "AlCMunPajariTO",
+      "iddepart": 1
+    },
+    {
+      "identidad": 78,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Panqueba",
+      "dbe": "GPIF_ORIENTE_Mpio_PanqueabaBoy",
+      "usuario": "AlcMunPanquebaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 79,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Pauna",
+      "dbe": "GPIF_ORIENTE_Mpio_PaunaBoy",
+      "usuario": "AlcMunPaunaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 80,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Paya",
+      "dbe": "GPIF_ORIENTE_Mpio_PayaBoy",
+      "usuario": "AlcMunPayaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 81,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Paz De Río",
+      "dbe": "GPIF_ORIENTE_Mpio_PazDeRioBoy",
+      "usuario": "AlcmUNPaZRiO",
+      "iddepart": 1
+    },
+    {
+      "identidad": 82,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Pesca",
+      "dbe": "GPIF_ORIENTE_Mpio_PescaBoy",
+      "usuario": "AlcMunPescaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 83,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Pisba",
+      "dbe": "GPIF_ORIENTE_Mpio_PisbaBoy",
+      "usuario": "AlcMunPisBA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 84,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Puerto Boyaca",
+      "dbe": "GPIF_ORIENTE_Mpio_PuertoBoyacaBoy",
+      "usuario": "aLCmUNPtoBoyaCA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 85,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Quípama",
+      "dbe": "GPIF_ORIENTE_Mpio_QuipamaBoy",
+      "usuario": "AlcQuipama",
+      "iddepart": 1
+    },
+    {
+      "identidad": 86,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Ramiriquí",
+      "dbe": "GPIF_ORIENTE_Mpio_RamiriquiBoy",
+      "usuario": "alCmuNRamiriQuiB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 87,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Ráquira",
+      "dbe": "GPIF_ORIENTE_Mpio_RaquiraBoy",
+      "usuario": "AlcMunRaquiraBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 88,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Rondón",
+      "dbe": "GPIF_ORIENTE_Mpio_RondonBoy",
+      "usuario": "AlcMunRondonBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 89,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Saboyá",
+      "dbe": "GPIF_ORIENTE_Mpio_SaboyaBoy",
+      "usuario": "AlcMunSaBOYaS",
+      "iddepart": 1
+    },
+    {
+      "identidad": 90,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sáchica",
+      "dbe": "GPIF_ORIENTE_Mpio_SachicaBoy",
+      "usuario": "AlcMunSachicaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 91,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Samacá",
+      "dbe": "GPIF_ORIENTE_Mpio_SamacaBoy",
+      "usuario": "AlCmunSamaCAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 92,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San Eduardo",
+      "dbe": "GPIF_ORIENTE_Mpio_SanEduardoBoy",
+      "usuario": "alCmuNSEduardoB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 93,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San José De Pare",
+      "dbe": "GPIF_ORIENTE_Mpio_SanJoseDePareBoy",
+      "usuario": "aLcMuNSJoSEParE",
+      "iddepart": 1
+    },
+    {
+      "identidad": 94,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San Luis De Gaceno",
+      "dbe": "GPIF_ORIENTE_Mpio_SanJoseDeGacenoBoy",
+      "usuario": "AlcMunSanLuisGacenoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 95,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San Mateo",
+      "dbe": "GPIF_ORIENTE_Mpio_SanMateoBoy",
+      "usuario": "AlcMunSanMateoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 96,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San Miguel De Sema",
+      "dbe": "GPIF_ORIENTE_Mpio_SanMiguelDeSemaBoy",
+      "usuario": "AlcMunSMiguELSemA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 97,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San Pablo Borbur",
+      "dbe": "GPIF_ORIENTE_Mpio_SanPabloBorburBoy",
+      "usuario": "ALCmunSPabloBoRbur",
+      "iddepart": 1
+    },
+    {
+      "identidad": 98,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Santa Rosa de Viterbo",
+      "dbe": "GPIF_ORIENTE_Mpio_SanRosaDeViterboBoy",
+      "usuario": "AlcMunSRViterboBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 99,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Santa María",
+      "dbe": "GPIF_ORIENTE_Mpio_SantaMariaBoy",
+      "usuario": "AlCMunStaMariAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 100,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Santa Sofía",
+      "dbe": "GPIF_ORIENTE_Mpio_SantaSofiaBoy",
+      "usuario": "aLcMuNSSofiaB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 101,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Santana",
+      "dbe": "GPIF_ORIENTE_Mpio_SantanaBoy",
+      "usuario": "AlcSantana",
+      "iddepart": 1
+    },
+    {
+      "identidad": 102,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sativanorte",
+      "dbe": "GPIF_ORIENTE_Mpio_SativanorteBoy",
+      "usuario": "AlcMunSativanorteBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 103,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sativasur",
+      "dbe": "GPIF_ORIENTE_Mpio_SativaSurBoy",
+      "usuario": "AlcmUNSatiVASurB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 104,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Siachoque",
+      "dbe": "GPIF_ORIENTE_Mpio_SiachoqueBoy",
+      "usuario": "AlcMunSiachoqueBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 105,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Soatá",
+      "dbe": "GPIF_ORIENTE_Mpio_SoataBoy",
+      "usuario": "AlcMunSoataBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 106,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Socha",
+      "dbe": "GPIF_ORIENTE_Mpio_SochaBoy",
+      "usuario": "AlcMunSochaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 107,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Socotá",
+      "dbe": "GPIF_ORIENTE_Mpio_SocotaBoy",
+      "usuario": "AlCmunSocoTA",
+      "iddepart": 1
+    },
+    {
+      "identidad": 108,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sogamoso",
+      "dbe": "GPIF_ORIENTE_Mpio_SogamosoBoy",
+      "usuario": "aLCMUNSogaMOSOB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 109,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Somondoco",
+      "dbe": "GPIF_ORIENTE_Mpio_SomondocoBoy",
+      "usuario": "AlcMunSomondocoBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 110,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sora",
+      "dbe": "GPIF_ORIENTE_Mpio_SoraBoy",
+      "usuario": "AlcMunSoraBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 111,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Soracá",
+      "dbe": "GPIF_ORIENTE_Mpio_SoracaBoy",
+      "usuario": "AlcMUNSoraCAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 112,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sotaquirá",
+      "dbe": "GPIF_ORIENTE_Mpio_SotaquiraBoy",
+      "usuario": "AlcMunSotaquiraBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 113,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Susacón",
+      "dbe": "GPIF_ORIENTE_Mpio_SusaconBoy",
+      "usuario": "AlcSusacon",
+      "iddepart": 1
+    },
+    {
+      "identidad": 114,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sutamarchán",
+      "dbe": "GPIF_ORIENTE_Mpio_SutamarchanBoy",
+      "usuario": "AlcMunSutamarchanBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 115,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sutatenza",
+      "dbe": "GPIF_ORIENTE_Mpio_SutatenzaBoy",
+      "usuario": "AlcMunSutatenzaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 116,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tasco",
+      "dbe": "GPIF_ORIENTE_Mpio_TascoBoy",
+      "usuario": "AlcMUnTaSCoB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 117,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tenza",
+      "dbe": "GPIF_ORIENTE_Mpio_TenzaBoy",
+      "usuario": "aLcMUnTenZAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 118,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tibaná",
+      "dbe": "GPIF_ORIENTE_Mpio_TibanaBoy",
+      "usuario": "AlcMunTibanaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 119,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tibasosa",
+      "dbe": "GPIF_ORIENTE_Mpio_TibasosaBoy",
+      "usuario": "AlcMunTibasosaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 120,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tinjacá",
+      "dbe": "GPIF_ORIENTE_Mpio_TinjacaBoy",
+      "usuario": "AlcMunTinjacaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 121,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tipacoque",
+      "dbe": "GPIF_ORIENTE_Mpio_TipaCoqueBoy",
+      "usuario": "AlcTipacoque",
+      "iddepart": 1
+    },
+    {
+      "identidad": 122,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Toca",
+      "dbe": "GPIF_ORIENTE_Mpio_TocaBoy",
+      "usuario": "AlcMunTocaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 123,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Togüí",
+      "dbe": "GPIF_ORIENTE_Mpio_ToguiBoy",
+      "usuario": "AlcMunToguiBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 124,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tópaga",
+      "dbe": "GPIF_ORIENTE_Mpio_TopagaBoy",
+      "usuario": "AlcMUNTopaGAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 125,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tota",
+      "dbe": "GPIF_ORIENTE_Mpio_TotaBoy",
+      "usuario": "aLCmUNToTaB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 126,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tunja",
+      "dbe": "GPIF_ORIENTE_Mpio_TunjaBoy",
+      "usuario": "AlcMayorTunja",
+      "iddepart": 1
+    },
+    {
+      "identidad": 127,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tununguá",
+      "dbe": "GPIF_ORIENTE_Mpio_TununguaBoy",
+      "usuario": "AlcMunTunUNguAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 128,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Turmequé",
+      "dbe": "GPIF_ORIENTE_Mpio_TurmequeBoy",
+      "usuario": "AlcMunTurmequeBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 129,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tuta",
+      "dbe": "GPIF_ORIENTE_Mpio_TutaBoy",
+      "usuario": "AlcMunTutaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 130,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tutazá",
+      "dbe": "GPIF_ORIENTE_Mpio_TutazaBoy",
+      "usuario": "AlcMunTutazaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 131,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Umbita",
+      "dbe": "GPIF_ORIENTE_Mpio_UmbitaBoy",
+      "usuario": "AlcMUnUMbiTAB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 132,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Ventaquemada",
+      "dbe": "GPIF_ORIENTE_Mpio_VentaquemadaBoy",
+      "usuario": "AlcMunVentaquemadaBoy",
+      "iddepart": 1
+    },
+    {
+      "identidad": 133,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Villa De Leyva",
+      "dbe": "GPIF_ORIENTE_Mpio_VillaDeLeyvaBoy",
+      "usuario": "AlcMuNVLeYVaB",
+      "iddepart": 1
+    },
+    {
+      "identidad": 134,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Viracachá",
+      "dbe": "GPIF_ORIENTE_Mpio_ViracachaBoy",
+      "usuario": "AlcViracacha",
+      "iddepart": 1
+    },
+    {
+      "identidad": 135,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Zetaquira",
+      "dbe": "GPIF_ORIENTE_Mpio_ZetaquiraBoy",
+      "usuario": "AlcMunZetaquiRA",
+      "iddepart": 1
+    }
+  ],
+  "casanare": [
+    {
+      "identidad": 136,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Aguazul",
+      "dbe": "GPIF_ORIENTE_Mpio_AguazulAra",
+      "usuario": "AlcMunAguazulCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 137,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Chameza",
+      "dbe": "GPIF_ORIENTE_Mpio_ChamezaAra",
+      "usuario": "AlcMunChaMEzA",
+      "iddepart": 3
+    },
+    {
+      "identidad": 138,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Hato Corozal",
+      "dbe": "GPIF_ORIENTE_Mpio_CorozalAra",
+      "usuario": "AlcMunHatoCorozalCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 139,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de La Salina",
+      "dbe": "GPIF_ORIENTE_Mpio_SalinaAra",
+      "usuario": "AlcMunLaSalinaCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 140,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Maní",
+      "dbe": "GPIF_ORIENTE_Mpio_ManiAra",
+      "usuario": "AlcMuNMaNisHac",
+      "iddepart": 3
+    },
+    {
+      "identidad": 141,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Monterrey",
+      "dbe": "GPIF_ORIENTE_Mpio_MonterreyAra",
+      "usuario": "AlcMunMonterreyCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 142,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Nunchía",
+      "dbe": "GPIF_ORIENTE_Mpio_NunchiaAra",
+      "usuario": "AlcMunNunCHiA",
+      "iddepart": 3
+    },
+    {
+      "identidad": 143,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Orocué",
+      "dbe": "GPIF_ORIENTE_Mpio_OrocueAra",
+      "usuario": "AlcMunOrocueCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 144,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Paz De Ariporo",
+      "dbe": "GPIF_ORIENTE_Mpio_PazDeAriporoAra",
+      "usuario": "AlcMunPazdeAriporoCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 145,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Pore",
+      "dbe": "GPIF_ORIENTE_Mpio_PoreAra",
+      "usuario": "aLCmUNPoReCaS",
+      "iddepart": 3
+    },
+    {
+      "identidad": 146,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Recetor",
+      "dbe": "GPIF_ORIENTE_Mpio_RecetorAra",
+      "usuario": "AlcMunReceTORC",
+      "iddepart": 3
+    },
+    {
+      "identidad": 147,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sabanalarga",
+      "dbe": "GPIF_ORIENTE_Mpio_SabanalargaAra",
+      "usuario": "AlcMunSabanalargaCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 148,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Sácama",
+      "dbe": "GPIF_ORIENTE_Mpio_SacamaAra",
+      "usuario": "AlcMuNSacaMAC",
+      "iddepart": 3
+    },
+    {
+      "identidad": 149,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de San Luis De Palenque",
+      "dbe": "GPIF_ORIENTE_Mpio_SanLuisDePalenqueAra",
+      "usuario": "AlcMunSLPaleNquE",
+      "iddepart": 3
+    },
+    {
+      "identidad": 150,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Támara",
+      "dbe": "GPIF_ORIENTE_Mpio_TamaraAra",
+      "usuario": "AlcMunTamaraCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 151,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Tauramena",
+      "dbe": "GPIF_ORIENTE_Mpio_TauramenaAra",
+      "usuario": "AlcMunTauramenaCas",
+      "iddepart": 3
+    },
+    {
+      "identidad": 152,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Trinidad",
+      "dbe": "GPIF_ORIENTE_Mpio_TrinidadAra",
+      "usuario": "AlcTrinidad",
+      "iddepart": 3
+    },
+    {
+      "identidad": 153,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Villanueva",
+      "dbe": "GPIF_ORIENTE_Mpio_VillanuevaAra",
+      "usuario": "AlcMUnVillaNUEvaC",
+      "iddepart": 3
+    },
+    {
+      "identidad": 154,
+      "sector": "Gestión Pública e Instituciones Financieras",
+      "subsector": "Administración Pública",
+      "nombre": "Alcaldía Municipal de Yopal",
+      "dbe": "GPIF_ORIENTE_Mpio_YopalAra",
+      "usuario": "AlCMunYopaLC",
+      "iddepart": 3
+    }
+  ]
+}

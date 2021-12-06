@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <div class="formulario mt-4">
+      <div class="container">
+        <div class="col-xs-8 col-xs-offset-2">
+          <h2 class="text-center">Cargar Archivo CSV</h2>
+          <form
+            action="/uploads"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <div class="form-group">
+              <label for="file"></label>
+              <input
+                type="file"
+                name="file"
+                id="file"
+                class="form-control"
+                placeholder="cargar csv"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="entidad"></label>
+              <select
+                name="entity"
+                class="form-select"
+                aria-label="Default select example"
+              >
+                <optgroup label="Reportes">
+                  <% for(let entity of reportes.reportes)
+                  {%>
+                  <option value="<%=entity.diccionario%>">
+                    Diccionario:<%=entity.id%>-<%=entity.nombre%>
+                  </option>
+                  <%}%>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <input
+                type="submit"
+                value="validar csv"
+                class="btn btn-primary mt-2"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

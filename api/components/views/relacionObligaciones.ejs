@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <table
+      class="table table-striped table-hover align-middle"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Columna</th>
+          <th scope="col">Descripción del campo</th>
+          <th scope="col">Tipo Dato</th>
+          <th scope="col">Esperado</th>
+          <th scope="col">Observaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anio_reporte</th>
+          <td>
+            Año correspondiente a la información reportada
+          </td>
+          <td>Entero</td>
+          <td>2018</td>
+          <td>Sin separadadores de miles ni simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Vigencia</th>
+          <td>
+            Corresponde a vigencia: “Actual” => Presupuesto
+            aprobado para el año de reporte “Reservas” =>
+            Ejecucion de la reserva constituida a diciembre
+            31 del año anterior al del reporte “CxP” =>
+            Ejecucion de las cuentas por pagar constituida a
+            diciembre 31 del año anterior al del reporte
+          </td>
+          <td>Cadena de texto</td>
+          <td>Reservas</td>
+          <td>
+            "Los valores deben aparecer sin espacios y con
+            las mismas caracteristicas de mayusculas y
+            minusculas, sin comillas, los valores validos
+            son: Actual Reservas CxP"
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Entidad_reportante</th>
+          <td>
+            Nit de la entidad que reporta información sin
+            digito de verificacion
+          </td>
+          <td>Entero</td>
+          <td>900800125</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Entidad</th>
+          <td>Nombre de entidad reportante</td>
+          <td>Cadena texto</td>
+          <td>Municipio ABC</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Codigo_Presupuestal</th>
+          <td>
+            Corresponde para el año 2021 al codigo CCPET,
+            para los años anteriores se utilizan los codigos
+            de presupuesto libre
+          </td>
+          <td>Cadena de texto</td>
+          <td>5.3.14</td>
+          <td>
+            Separador (.), sin otros simbolos o caracteres
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Macro_campo_nivel_agregado</th>
+          <td>
+            Valor que define si el rubro informado
+            corresponde a un rubro de detalle o de
+            agregacion (suma de rubros) Sin simbolos solo
+            letras A si es agregado (suma de rubros) o DA si
+            es desagregado y es el ultimo nivel (no hay
+            niveles inferiores).
+          </td>
+          <td>Cadena texto</td>
+          <td>DA</td>
+          <td>
+            Sin simbolos solo letras A si es agregado (suma
+            de rubros) o DA si es desagregado y es el ultimo
+            nivel (no hay niveles inferiores).
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Rubro</th>
+          <td>Nombre asignado al rubro informado</td>
+          <td>Cadena de texto</td>
+          <td>Pago de nomina</td>
+          <td>Sin simbolos, solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">numero_de_obligacion</th>
+          <td>
+            Numero de documento con el que se realiza la
+            obligación presupuestal o disminución
+          </td>
+          <td>Entero</td>
+          <td>38549058</td>
+          <td>Número entero sin simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_de_Obligacion</th>
+          <td>
+            La fecha en que se realiza la obligación
+            presupuestal o su disminución
+          </td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero_Compromiso</th>
+          <td>Número único del compromiso</td>
+          <td>Entero</td>
+          <td>2018000247</td>
+          <td>
+            Año seguido del consecutivo propio de cada
+            entidad
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha_Compromiso</th>
+          <td>Fecha del compromiso</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_obligacion</th>
+          <td>
+            Valor de la obligación presupuestal o su
+            disminución
+          </td>
+          <td>Decimal</td>
+          <td>199988002,35</td>
+          <td>
+            Valores enteros en pesos mas centavos separados
+            por comas, sin separador de miles, ni puntos u
+            otros simbolos
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Beneficiario</th>
+          <td>
+            Nit de la entidad, persona natural o juridica a
+            quien se realizan los pagos
+          </td>
+          <td>Entero</td>
+          <td>900900015</td>
+          <td>
+            Sin digito de verificación y sin puntos o comas
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Beneficiario</th>
+          <td>
+            Nombre de la entidad, persona natural o juridica
+            a quien se realizan los pagos
+          </td>
+          <td>Cadena texto</td>
+          <td>Empresa ABCZ SAS</td>
+          <td>
+            Sin simbolos solo letras, espacios o numeros
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Detalle_compromiso</th>
+          <td>Objeto del compromiso</td>
+          <td>Cadena de texto</td>
+          <td>Transferencia del mes de febrero de 2018</td>
+          <td>
+            Sin simbolos solo letras, espacios o numeros
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

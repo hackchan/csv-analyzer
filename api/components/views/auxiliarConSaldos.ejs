@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <table
+      class="table table-striped table-hover align-middle"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Columna</th>
+          <th scope="col">Descripción del campo</th>
+          <th scope="col">Tipo Dato</th>
+          <th scope="col">Esperado</th>
+          <th scope="col">Observaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anio</th>
+          <td>
+            Año correspondiente a la información reportada
+          </td>
+          <td>Entero</td>
+          <td>2018</td>
+          <td>Sin separadadores de miles ni simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Entidad</th>
+          <td>
+            Nit de la entidad que reporta información sin
+            digito de verificacion
+          </td>
+          <td>Entero</td>
+          <td>900800125</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Entidad</th>
+          <td>Nombre de entidad reportante</td>
+          <td>Cadena texto</td>
+          <td>Municipio ABC</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Fecha</th>
+          <td>Fecha de expedición del registro contable</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Comprobante</th>
+          <td>
+            Nombre del comprobante contable - Clasificación
+            contable
+          </td>
+          <td>Cadena de texto</td>
+          <td>Indemnizacion</td>
+          <td>
+            De acuerdo al establecido por la entidad,
+            especificar su estructura.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Numero</th>
+          <td>Numero del comprobante contable</td>
+          <td>Entero</td>
+          <td>201800513</td>
+          <td>
+            De acuerdo al establecido por la entidad,
+            especificar su estructura.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Cheque/Transferencia</th>
+          <td>
+            Numero del documento de transferencia, cheque o
+            en blanco si no aplica.
+          </td>
+          <td>Cadena texto</td>
+          <td>CE23465749</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Doc_Ref</th>
+          <td>Documento de referencia o factura</td>
+          <td>Cadena de texto</td>
+          <td>...</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Centro_Costos</th>
+          <td>Centro de costos o en blanco si no aplica</td>
+          <td>Cadena de texto</td>
+          <td>...</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Descripcion</th>
+          <td>Centro de costos o en blanco si no aplica</td>
+          <td>Cadena de texto</td>
+          <td>...</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Tercero</th>
+          <td>Nombre del tercero del registro contable</td>
+          <td>Cadena de texto</td>
+          <td>Juan Ejemplo</td>
+          <td>Sin simbolos solo letras y espacioss</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Identificacion</th>
+          <td>
+            Numero de identificación (cedula o nit) del
+            tercero contable
+          </td>
+          <td>Entero</td>
+          <td>900900081</td>
+          <td>
+            Sin digito de verificación y sin puntos o comas
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Codigo_Contable</th>
+          <td>
+            La Cuenta - Codigo contable NIIF al mayor nivel
+            de detalle
+          </td>
+          <td>Entero</td>
+          <td>615560</td>
+          <td>
+            De acuerdo con la estructura NIIF vigente para
+            el año reportado
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Descripcion</th>
+          <td>
+            Nombre del codigo contable - Descripción de la
+            Cuenta
+          </td>
+          <td>Cadena de texto</td>
+          <td>Dotación de personal</td>
+          <td>
+            Nombre establecido de acuerdo con el NIIF para
+            el año reportado
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Debitos</th>
+          <td>Valor debitos</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Creditos</th>
+          <td>Valor creditos</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Saldo_Total_Debito</th>
+          <td>Saldo final - Saldo por comprobante</td>
+          <td>Decimal</td>
+          <td>19000000,41</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Macro_campo_nivel_agregado</th>
+          <td>Define si el campo es el valor agregado</td>
+          <td>Cadena de texto</td>
+          <td>DA</td>
+          <td>
+            A: Si es un valor agregado DA: Si es desagregado
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Saldo_Inicial</th>
+          <td>Saldo Inicial - Saldo por comprobante</td>
+          <td>Decimal</td>
+          <td>19000000,41</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

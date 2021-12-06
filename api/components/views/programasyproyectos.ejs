@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <%- include('./partials/link') %>
+    <title><%=title%></title>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <table
+      class="table table-striped table-hover align-middle"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Columna</th>
+          <th scope="col">Descripción del campo</th>
+          <th scope="col">Tipo Dato</th>
+          <th scope="col">Esperado</th>
+          <th scope="col">Observaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anio</th>
+          <td>
+            Año correspondiente a la información reportada
+          </td>
+          <td>Entero</td>
+          <td>2018</td>
+          <td>Sin separadadores de miles ni simbolos</td>
+        </tr>
+
+        <tr>
+          <th scope="row">NIT_Entidad</th>
+          <td>
+            Nit de la entidad que reporta información sin
+            digito de verificacion
+          </td>
+          <td>Entero</td>
+          <td>900800125</td>
+          <td>
+            Número entero sin simbolos, sin digito de
+            verificación
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Entidad</th>
+          <td>Nombre de entidad reportante</td>
+          <td>Cadena texto</td>
+          <td>Municipio ABC</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Codigo_Banco_Proyecto</th>
+          <td>Codigo asignado en BPIN</td>
+          <td>Cadena de texto</td>
+          <td>0025-00154-0000</td>
+          <td>
+            Se admite números separados con guiones de
+            acuerdo con el formato establecido y asignado al
+            proyecto
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Nombre_Proyecto</th>
+          <td>Nombre del Proyecto</td>
+          <td>Cadena de texto</td>
+          <td>Proyecto de adecuaciones locativas</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Valor_Proyecto</th>
+          <td>Valor total en pesos del proyecto</td>
+          <td>Decimal</td>
+          <td>1000000,35</td>
+          <td>
+            Valores enteros mas centavos separados por
+            comas, sin separador de miles, ni puntos u otros
+            simbolos.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Duracion_Proyecto</th>
+          <td>Duracion de la ejecucion del proyecto</td>
+          <td>Entero</td>
+          <td>180</td>
+          <td>
+            Solo números enteros sin puntos, comas o
+            decimales. (Dias)
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Dependencia_Responsable_Proyecto
+          </th>
+          <td>Dependencia responsable proyecto</td>
+          <td>Cadena de texto</td>
+          <td>Secretaría de Educación</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Descripcion</th>
+          <td>Descripción del proyecto</td>
+          <td>texto</td>
+          <td>Adecuaciones locativas piso 1 y 2</td>
+          <td>Sin simbolos solo letras y espacios</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Objetivo_General_Proyecto</th>
+          <td>
+            Descripcion del objetivo del proyecto, este debe
+            estar relacionado con el resultado del proyecto
+          </td>
+          <td>Texto</td>
+          <td>
+            Solventar inconvenientes en las platas del
+            edificio
+          </td>
+          <td>
+            Texto, letras, números, espacios, puntos y
+            comas.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Sector</th>
+          <td>Sector al que pertenece el proyecto</td>
+          <td>Texto</td>
+          <td>Salud</td>
+          <td>Solo letras y espacios. Sin otros signos.</td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Programa_Plan_Desarrollo_Municipal
+          </th>
+          <td>
+            Programa Plan de Desarrollo Municipal al que
+            pertenece el proyecto
+          </td>
+          <td>texto</td>
+          <td>
+            Plan de desarrollo economico para el municipio x
+          </td>
+          <td>
+            Texto, letras, números, espacios, puntos y
+            comas.
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Fecha_Inicio_Ejecucion_Proyecto
+          </th>
+          <td>Fecha de Inicio ejecucion del Proyecto</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            Fecha_Cierre_Ejecucion_Proyecto
+          </th>
+          <td>Fecha de Cierre ejecucion del Proyecto</td>
+          <td>Fecha</td>
+          <td>2018-11-31</td>
+          <td>
+            (AAAA-MM-DD) Día de dos digitos, mes de dos
+            digitos y año de cuatro digitos separados por -,
+            sin digitos de hora o simbolos diferentes a -
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Observaciones</th>
+          <td>Observaciones</td>
+          <td>texto</td>
+          <td>
+            El proyecto ha presentado inconvenientes por
+            actividades
+          </td>
+          <td>
+            Texto, letras, números, espacios, puntos y
+            comas.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
