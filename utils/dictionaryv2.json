@@ -71,7 +71,7 @@
       "valid": 0,
       "message": "Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"
     },
-   
+
     "apropiacion_definitiva": {
       "tipo": "Number",
       "coma": true,
@@ -102,7 +102,7 @@
       "valid": 0,
       "message": "Valores enteros en pesos mas centavos separados por comas, sin separador de miles, ni puntos u otros simbolos"
     },
-   
+
     "fecha_reporte": {
       "tipo": "Date",
       "coma": false,
@@ -1103,7 +1103,7 @@
       "message": "Sin simbolos solo letras y espacios"
     },
     "codigo_banco_proyecto": {
-      "tipo": "Number",
+      "tipo": "String",
       "coma": false,
       "valid": 0,
       "message": "Se admite números separados con guiones de acuerdo con el formato establecido y asignado al proyecto"

@@ -20,10 +20,19 @@ function error(err, req, res, next) {
   const {
     output: { statusCode, payload }
   } = err
-
+  if (err.code == 'LIMIT_FILE_SIZE') {
+    console.log('payload:', payload)
+    payload.message =
+      'Tamaño  de archivo es demasiado grande. maximo permitido 20MB'
+  }
   let responseError = {}
   responseError.message = payload
-  ErrMessage(req, res, responseError, statusCode)
+  //ErrMessage(req, res, responseError, statusCode)
+  console.log('go::', err.code)
+  res.render('error', {
+    title: 'Errores CSV',
+    err: responseError.message.message
+  })
 }
 
 module.exports = {

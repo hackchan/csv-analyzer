@@ -24,7 +24,7 @@ class uploadsService {
       `public/uploads/${this.file.filename}`
     )
 
-    this.dictionary = require('../../../utils/dictionary.json')
+    this.dictionary = require('../../../utils/dictionaryv2.json')
   }
   readfile() {
     return new Promise(async (resolve, reject) => {
@@ -39,7 +39,7 @@ class uploadsService {
   async getValidNamesColumns(reportName, reportHeader) {
     return new Promise(async (resolve, reject) => {
       try {
-     
+
         const totalColumHeader =
           Object.keys(reportHeader).length
         const totalColumnDic = Object.keys(
@@ -107,9 +107,9 @@ class uploadsService {
   async getValidDatatype(reportName, reportData) {
     return new Promise(async (resolve, reject) => {
       try {
-      
+
         const dictionary = this.dictionary[reportName]
-      
+
         let numeroFila = 2
         for (let fila of reportData) {
           const filaClean = await cleanJSON(fila)
@@ -117,7 +117,7 @@ class uploadsService {
           for (let columna of filaKeys) {
             const campo = filaClean[columna]
             const regla = dictionary[columna]
-       
+
             await isValidData(
               numeroFila,
               columna,
