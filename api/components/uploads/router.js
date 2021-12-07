@@ -1,12 +1,10 @@
 const express = require('express')
 const router = express.Router()
-const entidadService = require('../entidad/service')
-const service = new entidadService()
 const uploadService = require('./service')
 const multer = require('multer')
 const path = require('path')
 const { v4: uuidv4 } = require('uuid')
-
+const { limit } = require('../../../config_params')
 const storage = multer.diskStorage({
   destination: 'public/uploads/',
   filename: (req, file, cb) => {
@@ -17,11 +15,11 @@ const storage = multer.diskStorage({
     )
   }
 })
-
+console.log('limits:', limit)
 const upload = multer({
   storage,
   dest: 'public/uploads/',
-  limits: { fileSize: 20 * 1024 * 1024 },
+  limits: { fileSize: limit * 1024 * 1024 },
   fileFilter: function (req, file, cb) {
     //const csv = '/application/vnd.ms-excel/'
     //const filestypes = `${/csv/}`
@@ -39,7 +37,6 @@ const upload = multer({
     cb(null, true)
   },
   onError: function (err, next) {
-    console.log('error::', err)
     next(err)
   }
 })
@@ -57,7 +54,6 @@ function loadingExcel(req, res, next) {
 
 async function loadingCSV(req, res) {
   try {
-    console.log('file final:::', req.file)
     const diccionarioSel = req.body.entity
     if (!diccionarioSel || diccionarioSel === '') {
       throw new Error(

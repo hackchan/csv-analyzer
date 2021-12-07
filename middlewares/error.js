@@ -1,6 +1,6 @@
 const { error: ErrMessage } = require('../utils/response')
 const boom = require('@hapi/boom')
-
+const { limit } = require('../config_params')
 function logError(err, req, res, next) {
   //error(req, res, err.message, 500)
   console.log('err:', err)
@@ -22,8 +22,7 @@ function error(err, req, res, next) {
   } = err
   if (err.code == 'LIMIT_FILE_SIZE') {
     console.log('payload:', payload)
-    payload.message =
-      'Tamaño  de archivo es demasiado grande. maximo permitido 20MB'
+    payload.message = `Tamaño  de archivo es demasiado grande. maximo permitido ${limit}MB`
   }
   let responseError = {}
   responseError.message = payload
